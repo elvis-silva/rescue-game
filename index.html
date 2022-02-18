@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rescue Game</title>
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+  <div id="container">
+  <div id="background-game">
+    <div id="energy-container"></div>
+    <div id="initial-menu" onclick="start()">
+      <h1>Rescue Game</h1>
+      <p>Como jogar pressione as teclas:</p>
+      <p>W -> para subir.</p>
+      <p>S -> para descer.</p>
+      <p>D -> para atirar.</p>
+      <p>CLIQUE PARA INICIAR O JOGO</p>
+    </div>
+  </div>
+  </div>
+
+  <audio src="song/background-sound.mp3" preload="auto" id="background-sound"></audio>
+  <audio src="song/explosion-sound.mp3" preload="auto" id="explosion-sound"></audio>
+  <audio src="song/gameover-sound.mp3" preload="auto" id="gameover-sound"></audio>
+  <audio src="song/lost-sound.mp3" preload="auto" id="lost-sound"></audio>
+  <audio src="song/rescue-sound.mp3" preload="auto" id="rescue-sound"></audio>
+  <audio src="song/shot-sound.mp3" preload="auto" id="shot-sound"></audio>
+
+  <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript" src="js/jquery-collision.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
